@@ -1,6 +1,8 @@
 # git-task
 To introduce folks to git version control system and github
 
+For any issues/doubts: [![Join Slack Chat](https://img.shields.io/badge/slack%20chat-join-ff69b4.svg)](https://bitsgoacodes.slack.com/x-44783084112-46628670167/signup)
+
 # Introduction
 Go through this to understand more: [Introduction](http://stackoverflow.com/questions/11816424/understanding-the-basics-of-git-and-github).
 
