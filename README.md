@@ -29,7 +29,16 @@ These are for folks using Linux, Mac OSX. Windows people have to download git ba
     * Link it with the online repository: `git remote add origin <url>` where <url> is the url of the repository you initialized.
     * Add some random files in the repository.
     * Add the files for staging for the next commit: `git add .`.
-    * Commit(Save) the files: `git commit -m <message>` where <message> can be anything to describe your commit.
+    * Commit(Save) the files: `git commit -m <message>` where <message> is in double quotes and can be anything to describe your commit.
     * Push it to your online repository: `git push origin master`
       * You'll end up with an error message saying that your local repository is not up-to-date with your online(remote) repository. This happens, because you have a README.md in the online repo which is not present in your local repository.`git pull origin master` will pull all the contents from the online(remote) repo to your local repo. Now proceed with: `git push origin master`
 
+
+##Making Contributions
+###Basic
+* Make a fork of this repository
+* Clone your fork to your device (`git clone <url>` where <url> is the url of the forked repository that is in your account and not `https://github.com/OSDLabs/git-task`)
+* Create a new branch named `contrib` (`git checkout -b contrib`)
+* Create a new file named `yourname.txt` in intro directory with your name and BITS ID as the content (refer to sebastinsanty.txt for an example)
+* Commit (`git add .` & `git commit -m <message>`) the changes and push it to your fork `git push origin contrib` (read it as push the contrib branch to the remote named origin)
+* Browse to your repository on Github and submit a pull request
